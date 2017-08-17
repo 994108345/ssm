@@ -1,0 +1,108 @@
+/*left页面去掉ul和li前面的圈圈，并设置字体大小*/
+ul li{
+    list-style: none;
+    font-size: 15px;
+}
+/*left的下拉表单项居中*/
+.ul2 li{
+    text-align: center;
+}
+/*left的下拉表单项居，被鼠标选中时，背景显示为黑色*/
+.ul2 li:hover{
+    background-color:greenyellow;
+}
+.a1:hover{
+    background-color: aqua;
+
+}
+/*取消超链接的下划线*/
+.a2{
+    text-decoration:none;
+}
+/*查看信息模块中的总体居中*/
+#infomation{
+    text-align:center;
+    margin: 0px auto;
+}
+/*查看信息模块中的table居中*/
+#infomation-table{
+    text-align:center;
+    margin: 0px auto;
+}
+/*--------------top.jsp(分页头面)-----    ----------------*/
+#top-body{
+    border: 2px solid #BCBCBC;
+}
+#top-table-title{
+    width: 100%;
+}
+#top-tr-title{
+    width: 100%;
+}
+#top-td-left{
+    padding-left:30%;
+    width: 80%;
+}
+#top-td-right{
+    text-align: right;
+    padding-top: 3%;
+}
+/*--------------left.jsp(分页左导航栏页面)-----    ----------------*/
+#left-body{
+    border: 2px solid #BCBCBC;
+}
+#menu{
+    margin: 0 auto;
+    text-align: center;
+}
+#menu ul ul{
+    margin: 0 auto;
+}
+#menu li{
+    margin: 0 auto;
+}
+#menu a{
+    margin: 0 auto;
+}
+#left-ul-1menu{
+    margin-left: 0px;
+}
+
+/*--------------login.jsp(登录页面)属性----------------------*/
+/*背景图片div*/
+#login-div-background{
+    margin: 0 auto;
+    height: 65%;
+    width: 100%;
+}
+/*背景图片img*/
+#login-img-background{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+/*-------------公用属性------------------*/
+body{
+    text-align: center;
+}
+table{
+    margin:0 auto;
+}
+/*所有页面的退一页*/
+.div-back-lastPage{
+    height: 50px;
+    text-align: left;
+
+}
+.a-back-lastPage{
+    margin-left: 20px;
+    background-color: grey;
+    color:white;
+}
+.a-back-lastPage:hover{
+    color:#24C9C9;
+    font-size: 30px;
+    cursor:hand;
+    background-color: #F2E3D1;
+}
+
