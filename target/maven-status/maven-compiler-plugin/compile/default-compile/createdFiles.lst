@@ -6,6 +6,7 @@ com\mb\wzl\service\IRoleJurisdictionService.class
 com\mb\wzl\entity\UserRole.class
 com\mb\wzl\dao\IPageBeanDao.class
 com\mb\wzl\dao\IUserRoleDao.class
+com\mb\wzl\controller\SendRedirectController.class
 com\mb\wzl\entity\User.class
 com\mb\wzl\entity\RoleJurisdiction.class
 com\mb\wzl\controller\HomeController.class

@@ -91,6 +91,15 @@ public class IRoleJurisdictionTest {
         }
         String c="46546";
     }
+    @Test
+    public void test2(){
+
+
+    }
+    class A{
+        int a;
+        int b;
+    }
 
 }
 
