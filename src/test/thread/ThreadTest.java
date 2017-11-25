@@ -375,3 +375,31 @@ class SuspendResume{
     }
 }
 
+
+/*自己写一个volatitle的例子*/
+class VaolatitleThread implements Runnable {
+    String threadName;
+    Thread t;
+     volatile int i = 0;
+    VaolatitleThread(String name){
+        this.threadName = name;
+        t = new Thread(this,name);
+        t.start();
+    }
+    @Override
+    public void run() {
+        while(true) {
+            i++;
+            System.out.println(t.getName() + ":" + i);
+        }
+    }
+}
+
+class mainVaolatitle{
+    public static void main(String[] args){
+        VaolatitleThread vaolatitleThread=new VaolatitleThread("one");
+        VaolatitleThread vaolatitleThread1=new VaolatitleThread("two");
+        System.out.println(vaolatitleThread.t.getName());
+        System.out.println(vaolatitleThread1.t.getName());
+    }
+}
